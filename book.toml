@@ -1,0 +1,6 @@
+[book]
+authors = ["Fabrice"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Simplang Compiler Book"
