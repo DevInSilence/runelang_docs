@@ -21,3 +21,7 @@ This book is divided into multiple parts that cover essential topics. It's impor
   - [Simplang-Language Design](basics/simplang-language-design.md)
   - [Environment setup](basics/environment-setup.md)
   - [Project setup](basics/project-setup.md)
+
+## Source Code
+
+All the code can be found on [GitHub](https://github.com/DevInSilence/simplang) look under branches and tags for the code at different stages.
