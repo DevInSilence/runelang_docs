@@ -1,6 +1,6 @@
-## Simplang-Language Design [2024-08-28]
+## Rune-Language Design [2024-08-28]
 
-I was not able to come up with a better name for the language, so we are just going to call it Simplang (Simpl(e)-language). We are going to cover the syntax and semantics of the language in this chapter.
+I was not able to come up with a better name for the language, so we are just going to call it Runelang (Simpl(e)-language). We are going to cover the syntax and semantics of the language in this chapter.
 
 ## Syntax
 
@@ -32,7 +32,7 @@ One of the things a modern programmer loves is immutability by default. We will 
 
 I just collected some ideas for the syntax.
 
-```simplang
+```rune
 # A comment starts with a hash and goes until the end of the line (EOL)
 
 # Global variables are declared outside of any scope and are globally accessible

@@ -18,10 +18,10 @@ This book is divided into multiple parts that cover essential topics. It's impor
 
 - **Basics**:
   - [Language components](basics/language-components.md)
-  - [Simplang-Language Design](basics/simplang-language-design.md)
+  - [Runelang-Language Design](basics/Runelang-language-design.md)
   - [Environment setup](basics/environment-setup.md)
   - [Project setup](basics/project-setup.md)
 
 ## Source Code
 
-All the code can be found on [GitHub](https://github.com/DevInSilence/simplang) look under branches and tags for the code at different stages.
+All the code can be found on [GitHub](https://github.com/DevInSilence/Runelang) look under branches and tags for the code at different stages.
