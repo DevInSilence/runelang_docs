@@ -18,9 +18,9 @@ This ensures that all crates that we create inside the `runelang` project are pa
 
 We will have the following crates:
 
-- `runelang-core`: This crate will contain lexer and parser code.
-- `runelang-analyzer`: This crate will contain the analyzer code.
-- `runelang-compiler`: This crate will contain the compiler code.
+- `rune-core`: This crate will contain lexer and parser code.
+- `rune-analyzer`: This crate will contain the analyzer code.
+- `rune-compiler`: This crate will contain the compiler code.
 
 This might change as we progress through the book. This page will be updated accordingly.
 
