@@ -43,3 +43,7 @@ For the early stages we will probably do not need any additional libraries. Some
 5. [`llvm_sys`](https://crates.io/crates/llvm-sys) and maybe [`inkwell`](https://crates.io/crates/inkwell) for LLVM bindings.
 
 We will add these libraries as we need them.
+
+## Final
+
+If you have any issues take a look at the [GitHub repository](https://github.com/DevInSilence/simplang/tree/setupV1). If you have any questions or suggestions feel free to open an issue or a pull request.
