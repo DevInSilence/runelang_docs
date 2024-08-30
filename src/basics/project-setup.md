@@ -47,3 +47,4 @@ We will add these libraries as we need them.
 ## Final
 
 If you have any issues take a look at the [GitHub repository](https://github.com/DevInSilence/runelang/tree/setupV2). If you have any questions or suggestions feel free to open an issue or a pull request.
+Now we are ready to start coding!

@@ -21,6 +21,8 @@ This book is divided into multiple parts that cover essential topics. It's impor
   - [Runelang-Language Design](basics/Runelang-language-design.md)
   - [Environment setup](basics/environment-setup.md)
   - [Project setup](basics/project-setup.md)
+- **Rune-Core**:
+  - [Core introduction](rune-core/core-introduction.md)
 
 ## Source Code
 

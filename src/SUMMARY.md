@@ -6,3 +6,5 @@
   - [Rune-Language Design](basics/rune-language-design.md)
   - [Environment Setup](basics/environment-setup.md)
   - [Project Setup](basics/project-setup.md)
+- [Rune-Core]()
+  - [Core Introduction](rune-core/core-introduction.md)
