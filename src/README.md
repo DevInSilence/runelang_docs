@@ -23,6 +23,7 @@ This book is divided into multiple parts that cover essential topics. It's impor
   - [Project setup](basics/project-setup.md)
 - **Rune-Core**:
   - [Core introduction](rune-core/core-introduction.md)
+  - [Setup Lexer](rune-core/setup-lexer.md)
 
 ## Source Code
 

@@ -8,3 +8,4 @@
   - [Project Setup](basics/project-setup.md)
 - [Rune-Core]()
   - [Core Introduction](rune-core/core-introduction.md)
+  - [Setup Lexer](rune-core/setup-lexer.md)
