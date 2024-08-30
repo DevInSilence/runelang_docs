@@ -181,4 +181,4 @@ impl Lexer {
 
 ### Source code
 
-You can find the source code for this chapter under the `setupLexer` [tag](https://github.com/DevInSilence/runelang/releases/tag/setupLexer)
+You can find the source code for this chapter under the [`setupLexer`](https://github.com/DevInSilence/runelang/releases/tag/setupLexer)
