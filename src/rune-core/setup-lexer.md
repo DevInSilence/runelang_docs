@@ -33,7 +33,7 @@ Inside here we can create the location struct: \
 `runelang/rune-core/src/lexer/location.rs`
 
 ```rust
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Location {
     pub start_index: usize,
     pub end_index: usize,
@@ -61,11 +61,11 @@ impl Location {
         end_index: usize,
     ) -> Self {
         Self {
+            filename,
             start_index,
             end_index,
             line,
             column,
-            filename,
         }
     }
 }
@@ -91,7 +91,7 @@ Inside here we can create the token kind enum: \
 `runelang/rune-core/src/lexer/token_kind.rs`
 
 ```rust
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub enum TokenKind {
     // GENERAL
     TkEof,
@@ -121,7 +121,7 @@ Inside here we can create the token struct: \
 ```rust
 use super::{location::Location, token_kind::TokenKind};
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Token {
     pub kind: TokenKind,
     pub loc: Location,
@@ -155,7 +155,6 @@ Inside here we can create the lexer struct: \
 ```rust
 use super::token::Token;
 
-#[allow(unused)] // just to silence the warning while we're working on this
 pub struct Lexer {
     source: &'static str,
     index: usize,
@@ -175,6 +174,19 @@ impl Lexer {
             filename,
             tokens: Vec::new(),
         }
+    }
+
+    pub fn lex(&mut self) -> Vec<Token> {
+        while !self.is_eof() {
+            unimplemented!("Lexing loop")
+        }
+
+        self.tokens.clone()
+    }
+
+    #[inline]
+    fn is_eof(&self) -> bool {
+        self.index >= self.source.len()
     }
 }
 ```
