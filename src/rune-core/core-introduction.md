@@ -4,13 +4,5 @@ To build the core of our project, we need to establish a solid foundation by imp
 
 ## Roadmap
 
-### 1. Setup Lexer
-
-**Goal:** Establish the foundational components for tokenizing the input.
-
-- **Location:** Implement a system to track the position of tokens within the source code.
-- **TokenKind (TKind):** Define different kinds of basic tokentypes (e.g., numbers, identifiers, keywords).
-- **Token:** Create a structure to represent individual tokens, including their type, value, and location.
-- **Lexer:** Develop the main lexer class/function to scan through the input and generate a stream of tokens.
-
-more to come...
+1. **setup-lexer**: We will set up the lexer and write unit tests to ensure its functionality.
+2. **error-handling**: We will create the basics for error handling. We might need to adjust it later on.
